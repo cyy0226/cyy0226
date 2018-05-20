@@ -1,0 +1,77 @@
+*
+{
+    font-family: STXinwei;
+}
+html,body
+{
+    height: 100%;
+}
+#txt1
+{
+    position: absolute;
+    top: 10px;
+    left:380px ;
+    width: 400px;
+    text-align: left;
+    height: 100%;
+    font-size: 30px;
+    color: brown;
+    letter-spacing: 7px;
+    font-weight: bold;
+
+}
+body
+{
+    background-image: url("SunBg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#txt2
+{
+
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 150px;
+    left: 380px;
+    color: hotpink;
+    font-weight: bolder;
+}
+#txt3
+{
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    color: blueviolet;
+    font-size: 50px;
+}
+@media all and (max-width:768px){
+    #txt3
+    {
+        position: absolute;
+        top: 150px;
+        left: 40px;
+        color: blueviolet;
+        font-size: 20px;
+    }
+    #txt2
+    {
+        position: absolute;
+        top: 150px;
+        left: 40px;
+        color:hotpink;
+        font-size: 20px;
+    }
+    #txt1
+    {
+        position: absolute;
+        top: 150px;
+        left: 60px;
+        font-size: 15px;
+    }
+    body
+    {
+        background-image: url("SunBgph.jpg");
+    }
+}
